@@ -4,20 +4,18 @@ public class Vault {
 	int sc;
 
 	public static void main(String[] args) {
-Vault v = new Vault();
+Vault v = new Vault(700);
 
 	}
 
-	Vault() {
+	Vault(int sc1) {
 		
-	Random r = new Random();
-	
-	
-	
-	
-	
-sc = r.nextInt(1000000000);
 
+	
+	
+	
+	
+	sc=sc1;
 
 	}
 	boolean tryCode(int num){

@@ -4,13 +4,7 @@ public class VaultRunner {
 public static void main(String[] args) {
 	
 	JamesBond jb = new JamesBond();
-	Vault v = new Vault();
-	
-	if(jb.findCode(v)==-1) {
-		JOptionPane.showMessageDialog(null, "nope");
-	}else {
-		JOptionPane.showMessageDialog(null, "yea");
-		
-	}
+	Vault v = new Vault(1257);
+	jb.findCode(v);
 }
 }
