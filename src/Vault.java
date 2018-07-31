@@ -1,4 +1,4 @@
-import java.util.Random;
+  import java.util.Random;
 
 public class Vault {
 	int sc;
@@ -18,7 +18,7 @@ Vault v = new Vault();
 	
 sc = r.nextInt(1000000000);
 
-System.out.println(sc);
+
 	}
 	boolean tryCode(int num){
 	if(num==sc) {
@@ -29,4 +29,5 @@ System.out.println(sc);
 	}
 		
 	}
+	
 }
